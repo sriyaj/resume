@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sriya Jayakumar — Resume (IBM)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+  <style>
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Tenor Sans', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 7.8pt;
+      color: #1A1414;
+      background: white;
+      width: 210mm;
+      height: 297mm;
+      display: flex;
+      flex-direction: column;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* ── HEADER ──────────────────────────────────────── */
+    .header {
+      background: #3C2A2E;
+      color: white;
+      padding: 18px 22px 16px 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .header-center {
+      text-align: center;
+    }
+
+    .name {
+      font-size: 23pt;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      line-height: 1;
+      color: white;
+    }
+
+    .name span {
+      color: #D4919F;
+    }
+
+    .role {
+      font-size: 7.5pt;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: #D4919F;
+      margin-top: 5px;
+    }
+
+    /* ── CONTACT (sidebar) ───────────────────────────── */
+    .contact-info {
+      font-size: 8pt;
+      color: #3C2A2E;
+      line-height: 1.9;
+    }
+
+    /* ── BODY LAYOUT ─────────────────────────────────── */
+    .body {
+      display: flex;
+      flex: 1;
+      overflow: hidden;
+    }
+
+    /* ── SIDEBAR ─────────────────────────────────────── */
+    .sidebar {
+      width: 30%;
+      background: #FBF0F2;
+      padding: 13px 12px 10px 14px;
+      border-right: 1px solid #EDD5D9;
+      flex-shrink: 0;
+    }
+
+    /* ── MAIN ────────────────────────────────────────── */
+    .main {
+      width: 70%;
+      padding: 11px 16px 8px 14px;
+    }
+
+    /* ── SECTION TITLES ──────────────────────────────── */
+    .section {
+      margin-bottom: 15px;
+    }
+
+    .section-title {
+      font-size: 7.5pt;
+      font-weight: 900;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: #9C3A52;
+      border-bottom: 1pt solid #C9929F;
+      padding-bottom: 2.5px;
+      margin-bottom: 6px;
+    }
+
+    /* ── SOFTWARE ────────────────────────────────────── */
+    .sw-group {
+      margin-bottom: 6px;
+    }
+
+    .sw-category {
+      font-size: 7pt;
+      font-weight: 600;
+      color: #3C2A2E;
+      margin-bottom: 1.5px;
+    }
+
+    .sw-items {
+      font-size: 8pt;
+      color: #3C2A2E;
+      line-height: 1.6;
+    }
+
+    /* ── EDUCATION ───────────────────────────────────── */
+    .edu-degree {
+      font-size: 9pt;
+      font-weight: 700;
+      color: #1A1414;
+      line-height: 1.3;
+    }
+
+    .edu-school {
+      font-size: 8pt;
+      color: #3C2A2E;
+      margin-top: 1.5px;
+    }
+
+    .edu-date {
+      font-size: 7.5pt;
+      color: #6A5458;
+      margin-top: 1px;
+    }
+
+    /* ── COMPETENCIES ────────────────────────────────── */
+    .competency-list {
+      font-size: 7pt;
+      color: #6A5458;
+      line-height: 1.65;
+    }
+
+    /* ── PROFILE ─────────────────────────────────────── */
+    .profile-text {
+      font-size: 7.8pt;
+      line-height: 1.52;
+      color: #1A1414;
+    }
+
+    /* ── ENTRY (PROJECT / EXPERIENCE) ────────────────── */
+    .entry {
+      margin-bottom: 11px;
+    }
+
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .entry-title {
+      font-size: 10pt;
+      font-weight: 900;
+      color: #000000;
+      letter-spacing: 0.03em;
+    }
+
+    .entry-date {
+      font-size: 7pt;
+      color: #3C2A2E;
+      white-space: nowrap;
+      margin-left: 6px;
+      flex-shrink: 0;
+    }
+
+    .entry-subtitle {
+      font-size: 7.5pt;
+      color: #9C3A52;
+      font-weight: 600;
+      margin-top: 1px;
+      margin-bottom: 8px;
+    }
+
+    /* ── FESTIVAL BADGE ──────────────────────────────── */
+    .festival-badge {
+      display: inline-block;
+      background: #B85C72;
+      color: white;
+      font-size: 6.3pt;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      padding: 1.5px 6px;
+      border-radius: 2px;
+      margin-bottom: 3.5px;
+      text-transform: uppercase;
+    }
+
+    /* ── BULLET LIST ─────────────────────────────────── */
+    .bullets {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 10px;
+    }
+
+    .bullets li {
+      font-size: 7.4pt;
+      line-height: 1.38;
+      color: #1A1414;
+      padding-left: 14px;
+      position: relative;
+      margin-bottom: 2px;
+    }
+
+    .bullets li::before {
+      content: '–';
+      position: absolute;
+      left: 3px;
+      color: #9C3A52;
+    }
+
+    em {
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-center">
+      <div class="name">Sriya <span>Jayakumar</span></div>
+      <div class="role">Animator and Illustrator</div>
+    </div>
+  </div>
+
+  <!-- BODY -->
+  <div class="body">
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+
+      <div class="section">
+        <div class="section-title">Profile</div>
+        <p class="profile-text">Animator and illustrator with a passion for visual storytelling and a strong eye for design and intricate details in artwork. Highly proficient with various software in both 2D and 3D pipelines in animation, and comfortable with combining various mediums seamlessly to bring stories to life.</p>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Contact</div>
+        <div class="contact-info">
+          <a href="mailto:sriya.j@gmail.com">sriya.j@gmail.com</a><br>
+          <a href="http://fyomoe.weebly.com">fyomoe.weebly.com</a><br>
+          <a href="https://linkedin.com/in/sriyajayakumar">linkedin.com/in/sriyajayakumar</a>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Software</div>
+        <div class="sw-items">Adobe Creative Suite · Procreate<br>After Effects · Premiere Pro · DaVinci Resolve · Nuke<br>Autodesk Maya · Blender · Unreal Engine · ZBrush</div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Education</div>
+        <div class="edu-degree">Honours Bachelor of Animation</div>
+        <div class="edu-school">Sheridan College</div>
+        <div class="edu-date">Sep 2022 – Apr 2026</div>
+      </div>
+
+    </div>
+
+    <!-- MAIN -->
+    <div class="main">
+
+      <div class="section">
+        <div class="section-title">Experience</div>
+
+        <div class="entry">
+          <div class="entry-header">
+            <span class="entry-title">BIOTROPERS</span>
+            <span class="entry-date">2026 – Present</span>
+          </div>
+          <div class="entry-subtitle">Graphic Designer &amp; Social Media Manager</div>
+          <ul class="bullets">
+            <li>Designed engaging posters, flyers and graphics to promote the BioTroopers brand in community events and increase its presence in the online space</li>
+            <li>Applied colour theory, typography, and layout principles, collaborating closely with the founder and team members to revise and deliver graphics and visual assets with quick turnaround times</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-header">
+            <span class="entry-title">EMBREATE · IP Development Studio</span>
+            <span class="entry-date">2025</span>
+          </div>
+          <div class="entry-subtitle">Visual Development and Illustration Intern</div>
+          <ul class="bullets">
+            <li>Translated story and worldbuilding concepts into a streamlined narrative for an upcoming card game as part of the <em>Future Now</em> Project</li>
+            <li>Conceptualized and provided illustrations for the book <em>What Has Sci-Fi Taught Us</em> by W.G. Miller, incorporating feedback and revising accordingly to the author's vision</li>
+            <li>Contributed to visual direction across multiple deliverables</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-header">
+            <span class="entry-title">FREELANCE ILLUSTRATOR AND ANIMATOR</span>
+            <span class="entry-date">2022 – Present</span>
+          </div>
+          <div class="entry-subtitle">Illustrator, Background Artist &amp; Visual Designer</div>
+          <ul class="bullets">
+            <li>Provided background artwork for 2 indie games in development, delivering assets with quick deadlines as per the requirements of the games</li>
+            <li>Developed concept art and environments for Studio Fluffpoint's upcoming animated project <em>Hope in the Shadows</em>, establishing the tone and mood of the locations in the pilot</li>
+            <li>Produced illustrations across 12+ independent for-profit and zine publications, working to design guidelines and release schedules</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-header">
+            <span class="entry-title">STREET ART TORONTO</span>
+            <span class="entry-date">2019, 2022, 2023</span>
+          </div>
+          <div class="entry-subtitle">Muralist</div>
+          <ul class="bullets">
+            <li>Collaborated with a team of 10+ artists to design and execute public murals with a cohesive style in West Hill, Empiringham, and Danzig Street</li>
+            <li>Pitched initial concept designs and revised them by incorporating community and team feedback, to provide a mural that truly encompassed the identity of the community</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="section" style="margin-top: 38px;">
+        <div class="section-title">Projects</div>
+
+        <div class="entry">
+          <div class="entry-header">
+            <span class="entry-title">BAIT &amp; CATCH! · Sheridan Capstone Film</span>
+            <span class="entry-date">2025–2026</span>
+          </div>
+          <div class="entry-subtitle">Director · Producer · Visual Development Lead · Compositor</div>
+          <ul class="bullets">
+            <li>Directed a 2:18 animated short from concept to final execution, seamlessly combining 2D and 3D workflows into a unified, but unique visual style</li>
+            <li>Defined the artistic look of the film, creating 2D and 3D assets for characters, backgrounds and props</li>
+            <li>Composited final shots with colour grading, particle effects and atmospheric design, refining decisions through peer and mentor reviews</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="entry-header">
+            <span class="entry-title">IN YOUR MEMORY · Sheridan Group Film Project</span>
+            <span class="entry-date">2024–2025</span>
+          </div>
+          <div class="entry-subtitle">Layout Lead · Compositing Lead · Background Painter · Animator</div>
+          <div style="margin-bottom:3.5px"><span class="festival-badge">&#9733;&nbsp; Hudson Film Festival</span>&nbsp;<span class="festival-badge">&#9733;&nbsp; Short Film Fest</span></div>
+          <ul class="bullets">
+            <li>Led and created layout and compositing guides to streamline asset reuse and allow for a smoother workflow</li>
+            <li>Offered constructive feedback and critique to maintain visual quality across all shots</li>
+            <li>Oversaw post-production: VFX integration, camera moves, lighting, and colour correction</li>
+            <li>Animated shots with a strong focus on character acting, emotion, and timing</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

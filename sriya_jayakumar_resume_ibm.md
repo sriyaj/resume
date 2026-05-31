@@ -23,7 +23,7 @@ Sep 2022 – Apr 2026
 
 ## Profile
 
-Sriya is an animator and illustrator with a passion for visual storytelling and a strong eye for appeal and intricate detail. With a strong foundation in  She is proficient with various software in both 2D and 3D pipelines in animation, and is very comfortable with combining various mediums seamlessly.
+Animator and illustrator with a passion for visual storytelling and a strong eye for design and intricate details in artwork. Highly proficient with various software in both 2D and 3D pipelines in animation, and comfortable with combining various mediums seamlessly to bring stories to life.
 
 ---
 
@@ -32,7 +32,7 @@ Sriya is an animator and illustrator with a passion for visual storytelling and 
 ### BIOTROPERS — 2026
 *Graphic Designer & Social Media Manager*
 
-- Designed visually engaging posters, flyers and graphics to promote the BioTroopers brand in community events and increase its presence in the online space.
+- Designed engaging posters, flyers and graphics to promote the BioTroopers brand in community events and increase its presence in the online space.
 - Applied colour theory, typography, and layout principles, collaborating closely with the founder and team members to revise and deliver graphics and
   visual assets with quick turnaround times
 
@@ -41,9 +41,8 @@ Sriya is an animator and illustrator with a passion for visual storytelling and 
 ### EMBREATE · IP Development Studio — 2025
 *Visual Development and Illustration Intern*
 
-- Translated story and worldbuilding concepts into a more streamlined narrative for an upcoming card game for the *Future Now* Project 
-- Conceptualized and provided illustrations for the book 'What Has Sci-Fi Taught Us' by W.G. Miller, incorporating feedback and revising accordingly to 
-  the author's vision
+- Translated story and worldbuilding concepts into a streamlined narrative for an upcoming card game as part of the *Future Now* Project 
+- Conceptualized and provided illustrations for the book 'What Has Sci-Fi Taught Us' by W.G. Miller, incorporating feedback and revising accordingly  to the author's vision
 - Contributed to visual direction across multiple deliverables 
 
 ---
@@ -51,8 +50,7 @@ Sriya is an animator and illustrator with a passion for visual storytelling and 
 ### FREELANCE ILLUSTRATOR AND ANIMATOR — 2022 – Present
 *Illustrator, Background Artist & Visual Designer*
 
-- Provided background artwork for 2 indie games in development, delivering assets to quick deadlines while keeping the style cohesive and fitting the composition to
-  the requirements of the game 
+- Provided background artwork for 2 indie games in development, delivering assets with quick deadlines as per the requirements of the games 
 - Developed concept art and environments for Studio Fluffpoint's upcoming animated project *Hope in the Shadows*, establishing the tone and mood of the locations in the pilot
 - Produced illustrations across 12+ independent for-profit and zine publications, working to design guidelines and release schedules
 
@@ -62,7 +60,7 @@ Sriya is an animator and illustrator with a passion for visual storytelling and 
 *Muralist*
 
 - Collaborated with a team of 10+ artists to design and execute public murals with a cohesive style in West Hill, Empiringham, and Danzig Street
-- Pitched initial concept designs and revised them by incorporating community and team feedback, to provide a mural that truly encompassed the identity of the 
+- Pitched initial concept designs and revised them by incorporating community and team feedback, to provide a mural that truly encompassed the identity of the
   community
 ---
 
@@ -73,8 +71,8 @@ Sriya is an animator and illustrator with a passion for visual storytelling and 
 
 - Directed a 2:18 animated short from concept to final execution, seamlessly combining 2D and 3D workflows into a
   unified, but unique visual style
-- Defined the visual style and look of the film, creating 2D and 3D assets for characters, backgrounds and props
-- Composited final shots with colour grading and atmospheric design, refining decisions through peer and mentor reviews
+- Defined the artistic look of the film, creating 2D and 3D assets for characters, backgrounds and props
+- Composited final shots with colour grading, particle effects and atmospheric design, refining decisions through peer and mentor reviews
 
 ---
 
@@ -83,7 +81,7 @@ Sriya is an animator and illustrator with a passion for visual storytelling and 
 
 **★ Hudson Film Festival** · **★ Short Film Fest**
 
-- Led and created layout and compositing guides to streamline asset reuse and allow the team workflow to be smoother
+- Led and created layout and compositing guides to streamline asset reuse and allow for a smoother workflow
 - Offered constructive feedback and critique to maintain visual quality across all shots
 - Oversaw post-production: VFX integration, camera moves, lighting, and colour correction
 - Animated shots with a strong focus on character acting, emotion, and timing
